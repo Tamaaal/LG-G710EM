@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #f4a300;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.intro h2 {
+    color: #f4a300;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.panes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pan {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.pan img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pan h3 {
+    font-size: 1.5em;
+    color: #f4a300;
+    margin-top: 10px;
+}
+
+.pan p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
